@@ -1,3 +1,6 @@
+:root {
+    --font-family: 'andalé mono'
+}
 *
 {
     margin: 0;
@@ -36,3 +39,15 @@ section:nth-child(odd)
 {
     justify-content: flex-end;
 }
+
+.header {
+  font-family: var(--font-family);
+  width: 100%;
+}
+
+.text {
+    font-family: var(--font-family);
+    text-transform: lowercase; 
+    position: relative;
+    text-align: left;
+  }
