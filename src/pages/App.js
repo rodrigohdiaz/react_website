@@ -1,10 +1,12 @@
-import './App.css';
-import './three.js'
+import '../styles/App.css';
+import '../threeJS/three.js'
+import Canvas from '../components/Canvas'
 
 
 function App() {
   return (
     <div className="App">
+      <Canvas />
       <header className="App-header">
       <section className="section"><br></br>
         <h1 className="header">P1ch1</h1>
