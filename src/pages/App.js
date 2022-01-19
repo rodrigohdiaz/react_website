@@ -1,24 +1,17 @@
-import '../styles/App.css';
-import '../threeJS/three.js'
-import Canvas from '../components/Canvas'
-
+import '../Style/App.css';
 
 function App() {
   return (
     <div className="App">
-      <Canvas />
       <header className="App-header">
-      <section className="section"><br></br>
-        <h1 className="header">P1ch1</h1>
-        <p className="text">welcome to my little hideout</p>
-      </section>
-      <section className="section">
-        <h2 className="header">My projects</h2>
-      </section>
-      <section className="section">
-        <h2 className="header">Contact me</h2>
-      </section>
-       
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
     </div>
   );
